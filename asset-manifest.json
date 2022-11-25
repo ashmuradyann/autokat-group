@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/autokat-group/static/css/main.72a47923.css",
-    "main.js": "/autokat-group/static/js/main.64fe7588.js",
+    "main.css": "/autokat-group/static/css/main.1ca73924.css",
+    "main.js": "/autokat-group/static/js/main.5e18f849.js",
     "static/media/image2.jpg": "/autokat-group/static/media/image2.3ed48880011e047bba95.jpg",
     "static/media/image7.png": "/autokat-group/static/media/image7.df32777e5ac08b057c72.png",
     "static/media/image6.jpg": "/autokat-group/static/media/image6.162e30b84a608e6df549.jpg",
@@ -11,11 +11,11 @@
     "static/media/image5.jpg": "/autokat-group/static/media/image5.1adf42777d1d76c44385.jpg",
     "static/media/image4.jpg": "/autokat-group/static/media/image4.2723b72500f2c13d9680.jpg",
     "index.html": "/autokat-group/index.html",
-    "main.72a47923.css.map": "/autokat-group/static/css/main.72a47923.css.map",
-    "main.64fe7588.js.map": "/autokat-group/static/js/main.64fe7588.js.map"
+    "main.1ca73924.css.map": "/autokat-group/static/css/main.1ca73924.css.map",
+    "main.5e18f849.js.map": "/autokat-group/static/js/main.5e18f849.js.map"
   },
   "entrypoints": [
-    "static/css/main.72a47923.css",
-    "static/js/main.64fe7588.js"
+    "static/css/main.1ca73924.css",
+    "static/js/main.5e18f849.js"
   ]
 }
