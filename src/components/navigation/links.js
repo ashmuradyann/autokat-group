@@ -1,7 +1,7 @@
 export const links = [
     {
         name: "home",
-        to: "/autokat-group",
+        to: "/autokat-group/",
         text: ""
     },
     {
