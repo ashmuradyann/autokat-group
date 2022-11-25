@@ -1,0 +1,218 @@
+@import '../../variables.scss';
+
+.home {
+    width: 100%;
+    min-height: calc(100vh - $nav-height);
+    padding: 40px 80px 40px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffdd00;
+
+    .home-header {
+        width: 80%;
+        background-color: #ffffff;
+        border-radius: 30px;
+        padding: 15px 30px;
+        margin: 0 30px;
+        -webkit-box-shadow: 0px 7px 23px 4px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 0px 7px 23px 4px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 7px 23px 4px rgba(0, 0, 0, 0.2);
+
+        h2,
+        h3 {
+            text-align: left;
+            width: fit-content;
+            margin: 5px 0 0 0;
+        }
+
+        h3:last-child {
+            margin: 0;
+        }
+    }
+
+    .home-raschot {
+        width: 80%;
+        background-color: #ffffff;
+        border-radius: 30px;
+        padding: 15px 30px;
+        margin: 20px 0;
+        
+        h2, p {
+            width: fit-content;
+            text-align: left;
+        }
+
+        div {
+            margin: 0 0 20px 0;
+            
+            &:last-child {
+                margin: 0;
+            }
+
+            p {
+                font-size: 1.3rem;
+            }
+        }
+    }
+
+    .home-images {
+        width: 80%;
+        padding: 0 0 20px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        div {
+            margin: 10px 20px;
+            width: 300px;
+            padding: 7px 7px 2px 7px;
+            height: fit-content;
+            background-color: #fff;
+            border-radius: 30px;
+
+            img {
+                width: 100%;
+                border-radius: 20px;
+            }
+        }
+    }
+
+    .form {
+        width: 80%;
+        height: fit-content;
+        background-color: #ffffff;
+        backdrop-filter: blur(5px);
+        border-radius: 30px;
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        -webkit-box-shadow: 0px 7px 23px 4px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 0px 7px 23px 4px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 7px 23px 4px rgba(0, 0, 0, 0.2);
+
+        div {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            form {
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+
+            }
+
+            &:last-child {
+
+                button:disabled {
+                    pointer-events: auto;
+                    cursor: not-allowed;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1280px) {
+    .home {
+
+        .home-title {
+            margin-bottom: 100px;
+
+            h1:first-child {
+                font-size: 2.7rem;
+            }
+
+            h1:last-child {
+                font-size: 2rem;
+            }
+        }
+
+        .form {
+            width: 75%;
+            min-width: 690px;
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+
+            div {
+                form {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+
+                    button {
+                        margin: 0 20px;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1020px) {
+    .home {
+        .home-images {
+            div {
+                width: 80%;
+            }
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    .home {
+        padding: 30px 0 80px 0;
+
+        .home-header {
+            width: 95%;
+            padding: 15px;
+        }
+
+        .home-raschot {
+            width: 95%;
+            padding: 15px;
+        }
+
+        .form {
+            text-align: center;
+            width: 300px;
+            min-width: 300px;
+            display: flex;
+            flex-direction: column;
+            padding: 10px 20px;
+
+            div {
+                form {
+                    width: 100%;
+                    height: fit-content;
+                    display: flex;
+                    flex-direction: column;
+                    // padding: 0 0 10px 0;
+
+                    input,
+                    select {
+                        min-width: 200px !important;
+                        width: 100% !important;
+                        max-width: 200px !important;
+                    }
+
+                    select {
+                        margin: 10px 0;
+                    }
+
+                    button {
+                        margin: 20px;
+                    }
+
+                }
+            }
+        }
+    }
+}
