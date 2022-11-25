@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/autokat-group/static/css/main.4ceefe5c.css",
-    "main.js": "/autokat-group/static/js/main.078db0ea.js",
+    "main.css": "/autokat-group/static/css/main.72a47923.css",
+    "main.js": "/autokat-group/static/js/main.64fe7588.js",
     "static/media/image2.jpg": "/autokat-group/static/media/image2.3ed48880011e047bba95.jpg",
     "static/media/image7.png": "/autokat-group/static/media/image7.df32777e5ac08b057c72.png",
     "static/media/image6.jpg": "/autokat-group/static/media/image6.162e30b84a608e6df549.jpg",
+    "static/media/image3.jpg": "/autokat-group/static/media/image3.8e0b142e5dfc4d53b21a.jpg",
     "static/media/logo.png": "/autokat-group/static/media/logo.ece9f9124a069e545020.png",
     "static/media/image1.jpg": "/autokat-group/static/media/image1.4c8ad0ae4d4fe220733a.jpg",
-    "static/media/image4.jpg": "/autokat-group/static/media/image4.e25ba79ee7ba71200113.jpg",
-    "static/media/image3.jpg": "/autokat-group/static/media/image3.d5d5d0b31043a3684859.jpg",
     "static/media/image5.jpg": "/autokat-group/static/media/image5.1adf42777d1d76c44385.jpg",
+    "static/media/image4.jpg": "/autokat-group/static/media/image4.2723b72500f2c13d9680.jpg",
     "index.html": "/autokat-group/index.html",
-    "main.4ceefe5c.css.map": "/autokat-group/static/css/main.4ceefe5c.css.map",
-    "main.078db0ea.js.map": "/autokat-group/static/js/main.078db0ea.js.map"
+    "main.72a47923.css.map": "/autokat-group/static/css/main.72a47923.css.map",
+    "main.64fe7588.js.map": "/autokat-group/static/js/main.64fe7588.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ceefe5c.css",
-    "static/js/main.078db0ea.js"
+    "static/css/main.72a47923.css",
+    "static/js/main.64fe7588.js"
   ]
 }
