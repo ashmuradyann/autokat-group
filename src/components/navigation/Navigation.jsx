@@ -28,10 +28,10 @@ const Navigation = () => {
                             {links.map(({ name, to, text }, i) => {
                                 if (name === "home") {
                                     return <Link key={i} to={to}>
-                                        <img className="home-icon" src={`https://img.icons8.com/material-outlined/30/${location === "/autokat-group" ? "ffdd00" : "000000"}/home--v2.svg`} alt="homeIcon" />
+                                        <img className="home-icon" src={`https://img.icons8.com/material-outlined/30/${location === "/autokat-group/" ? "ffdd00" : "000000"}/home--v2.svg`} alt="homeIcon" />
                                     </Link>
                                 }
-                                return <Link key={i} to={to} style={location.replace("/autokat-group", "") === name ? { color: "#ffdd00" } : null}>{text}</Link>
+                                return <Link key={i} to={to} style={location.replace("/autokat-group/", "") === name ? { color: "#ffdd00" } : null}>{text}</Link>
                             })}
                         </div>
                         <div className="nav-open-button" onClick={() => setToggleNav(true)}>
@@ -43,10 +43,10 @@ const Navigation = () => {
                     {links.map(({ name, to, text }, i) => {
                         if (name === "home") {
                             return <Link key={i} to={to}>
-                                <img className="home-icon" src={`https://img.icons8.com/material-outlined/30/${location === "/autokat-group" ? "ffdd00" : "ffffff"}/home--v2.svg`} alt="homeIcon" />
+                                <img className="home-icon" src={`https://img.icons8.com/material-outlined/30/${location === "/autokat-group/" ? "ffdd00" : "ffffff"}/home--v2.svg`} alt="homeIcon" />
                             </Link>
                         }
-                        return <Link key={i} to={to} style={location.replace("/autokat-group", "") === name ? { color: "#ffdd00" } : null}>{text}</Link>
+                        return <Link key={i} to={to} style={location.replace("/autokat-group/", "") === name ? { color: "#ffdd00" } : null}>{text}</Link>
                     })}
                 </div>
                 <Outlet />

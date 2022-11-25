@@ -48,12 +48,6 @@
         }
 
         div {
-            margin: 0 0 20px 0;
-            
-            &:last-child {
-                margin: 0;
-            }
-
             p {
                 font-size: 1.3rem;
             }
@@ -69,16 +63,19 @@
         align-items: center;
 
         div {
-            margin: 10px 20px;
             width: 300px;
-            padding: 7px 7px 2px 7px;
             height: fit-content;
+            padding: 7px 7px 2px 7px;
+            margin: 10px 20px;
             background-color: #fff;
             border-radius: 30px;
 
             img {
                 width: 100%;
-                border-radius: 20px;
+                border-radius: 25px;
+                -webkit-box-shadow: 0px 7px 23px 4px rgba(0, 0, 0, 0.2);
+                -moz-box-shadow: 0px 7px 23px 4px rgba(0, 0, 0, 0.2);
+                box-shadow: 0px 7px 23px 4px rgba(0, 0, 0, 0.2);
             }
         }
     }
