@@ -10,7 +10,7 @@ import './app.scss'
 const App = () => {
     return <div className="main welcome">
         <Routes>
-            <Route path="/autokat-group" element={<Navigation />}>
+            <Route path="/autokat-group/" element={<Navigation />}>
                 <Route index element={<Home />} />
                 <Route path="/autokat-group/comments" element={<Comments />} />
                 <Route path="/autokat-group/contacts" element={<Contacts />} />
